@@ -9,22 +9,24 @@
 
 # Додати проект на GitHub
 
-На гітхабі обираю новий проект, далі
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-//ось тут обережно ( якщо проект не з заготовки, то set-url не потрібно)
-git remote set-url origin https://github.com/Vasyl-Zhyliakov/НАЗВА ПРОЕКТУ.git
-git push -u origin main
+### На гітхабі обираю новий проект, далі
 
-Після цього всі зміни можна додавати
-git add .
-git commit -m "Some changes"
-git push
-npm run deploy
+- git init
+- git add .
+- git commit -m "first commit"
+- git branch -M main
+  //ось тут обережно ( якщо проект не з заготовки, то set-url не потрібно)
+- git remote set-url origin https://github.com/Vasyl-Zhyliakov/НАЗВА ПРОЕКТУ.git
+- git push -u origin main
 
-Нижче чернетка для README готового проекту
+### Після цього всі зміни можна додавати
+
+- git add .
+- git commit -m "Some changes"
+- git push
+- npm run deploy
+
+###### Нижче чернетка для README готового проекту
 
 # The project was created with Vite + TypeScript.
 

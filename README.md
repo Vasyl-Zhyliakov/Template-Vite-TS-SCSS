@@ -9,17 +9,17 @@
 
 # Додати проект на GitHub
 
-### На гітхабі обираю новий проект, далі
+#### На гітхабі обираю новий проект, далі
 
 - git init
 - git add .
 - git commit -m "first commit"
 - git branch -M main
-  //ось тут обережно ( якщо проект не з заготовки, то set-url не потрібно)
+- //ось тут обережно ( якщо проект не з заготовки, то set-url не потрібно)
 - git remote set-url origin https://github.com/Vasyl-Zhyliakov/НАЗВА ПРОЕКТУ.git
 - git push -u origin main
 
-### Після цього всі зміни можна додавати
+#### Після цього всі зміни можна додавати
 
 - git add .
 - git commit -m "Some changes"

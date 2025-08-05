@@ -14,7 +14,8 @@ git init
 git add .
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/Vasyl-Zhyliakov/НАЗВА ПРОЕКТУ.git
+//ось тут обережно ( якщо проект не з заготовки, то set-url не потрібно)
+git remote set-url origin https://github.com/Vasyl-Zhyliakov/НАЗВА ПРОЕКТУ.git
 git push -u origin main
 
 Після цього всі зміни можна додавати

@@ -9,6 +9,14 @@
 
 # Одразу треба видалити зв’язок темплейту з гітхабом
 rm -rf .git
+для перевірки 
+- $ git status 
+видасть помилку: fatal: not a git repository (or any of the parent directories): .git
+це означатиме, що репозиторій ще не ініційовано
+- $ git remote -v 
+видасть помилку: fatal: not a git repository (or any of the parent directories): .git
+це означатиме, що GitHub не підключено
+
 
 # Додати проект на GitHub
 
